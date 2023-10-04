@@ -1,8 +1,17 @@
 * {
+  margin: 0;
+  padding: 0;
   font-family: sans-serif;
 }
 
 h1 {
+  font-size: 2vh;
   text-align: center;
   text-transform: uppercase;
+}
+
+/* General Sibling */
+h2 + p {
+  font-size: 25px;
+  letter-spacing: 1px;
 }
