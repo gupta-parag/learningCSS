@@ -10,8 +10,14 @@ h1 {
   text-transform: uppercase;
 }
 
-/* General Sibling */
-h2 + p {
+/* Adjacent Sibling - directly adjacent to h2 element*/
+.adjacent-sibling h2 + p {
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+
+/* General Sibling - on the same level as h2 element*/
+.general-sibling h2 ~ p {
   font-size: 25px;
   letter-spacing: 1px;
 }
