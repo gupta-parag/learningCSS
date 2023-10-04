@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+body p {
+  color: grey;
+}
+
 h1 {
   font-size: 2vh;
   text-align: center;
@@ -20,4 +24,27 @@ h1 {
 .general-sibling h2 ~ p {
   font-size: 25px;
   letter-spacing: 1px;
+}
+
+/* Direct Child - p elements that are direct child of div*/
+.Child div > p {
+  font-size: 35px;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+}
+
+/* Descendar - p elements that are child of article element*/
+
+.descendar article p {
+  font-size: 25px;
+  color: gray;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.descendar article h2,
+h3 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
