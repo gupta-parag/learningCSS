@@ -3,3 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div a {
+  padding: 0 40px;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-header ul li {
+  padding: 20px;
+  width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
