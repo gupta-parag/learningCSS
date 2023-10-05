@@ -2,12 +2,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 .main-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 div a {
@@ -24,5 +26,4 @@ ul {
   padding: 20px;
   width: 100%;
   list-style: none;
-  text-decoration: none;
 }
