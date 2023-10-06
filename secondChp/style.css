@@ -1,19 +1,28 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 .main-header {
-  width: 100%;
   background-color: #2ddf5c;
   padding: 8px 16px;
+}
+
+.main-header__logo {
+  font-size: 32px;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 .main-header > div {
   width: 19%;
   display: inline-block;
+  vertical-align: middle;
 }
 
 .main-nav {
+  vertical-align: middle;
   display: inline-block;
   width: 80%;
   text-align: right;
@@ -21,4 +30,9 @@
 
 .main-nav__item {
   display: inline-block;
+  font-size: 24px;
+}
+
+.main-nav__item > a {
+  text-decoration: none;
 }
