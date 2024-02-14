@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid #fff; */
+  /* border: 1px solid black; */
+}
+
+@font-face {
+  font-family: 'REJHeadline';
+  src: url('/assets/fonts/Rejouice-Headline.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'NBInernational';
+  src: url('/assets/fonts/NBInternationalProBoo.woff2') format('woff2');
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100%;
+}
+
+#page1 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+#page1 video {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#page1 article.full-page {
+
+  position: relative;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* border: 3px solid green; */
+  height: 100%;
+
+}
+
+#page1 nav {
+  width: 100%;
+  display: flex;
+  padding: 2.8vw 2.5vw;
+  justify-content: space-between;
+  /* border: 3px solid red; */
+  color: white;
+  font-family: 'NBInernational';
+  font-size: 1.8vh;
+}
+
+#page1 h2 {
+  font-weight: 100;
+  cursor: pointer;
+}
+
+#page1 .hero h1 {
+  /* border: 1px solid yellow; */
+  position: relative;
+  letter-spacing: 6px;
+  font-size: 52vh;
+  cursor: pointer;
+  font-family: 'REJHeadline';
+  color: white;
+  text-align: center;
+  text-transform: lowercase;
+  font-weight: 500;
+  line-height: 30vw;
+}
+
+#page1 #cursor {
+  font-size: 12px;
+  transform: translate(-50%, -50%);
+  height: 7.5vw;
+  display: flex;
+  width: 7.5vw;
+  position: absolute;
+
+  background-color: #FF5F38;
+  border-radius: 50%;
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+#page2 {
+  font-family: 'NBInernational';
+  height: 100vh;
+  width: 100%;
+  color: #fffcf1 !important;
+  background-color: #0e0e0e;
+}
+
+#page2 header {
+  border: 2px solid yellow;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+}
+
+#page2 .parent {
+  padding: 2vw;
+  border: 2px solid green;
+  display: flex;
+  justify-content: space-between;
+}
+
+#page2 .right-half {
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+
+}
+
+#page2 .parent li {
+  font-size: 1.1vw;
+  list-style: none;
+}
+
+#page2 footer {
+  border: 2px solid blue;
+}
+
+#page2 .parent h1 {
+  font-weight: 100;
+  font-size: 1.5vw;
+}
+
+#page2 .parent button {
+  border-radius: 15px;
+  padding: 1.2vw;
+  font-size: 1.1vw;
+  background-color: #0e0e0e;
+  color: #fffcf1;
+  font-family: 'NBInernational';
+  border: 1px solid #fffcf1;
+  letter-spacing: 1px;
+}
+
+
+#page2 h2 {
+  font-weight: 200;
+  font-size: 1.1vw;
+}
+
+#page2 footer h1 {
+  text-align: center;
+  font-family: 'REJHeadline';
+  letter-spacing: 5px;
+  font-size: 27vw;
+  font-weight: 300;
+}

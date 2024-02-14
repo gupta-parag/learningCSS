@@ -1,0 +1,37 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+li a img {
+  width: 150px;
+}
+
+img[src*='jones'] {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+img[src*='post-img'] {
+  width: 700px;
+}
+
+.nav {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 15px;
+}
+
+.nav li a {
+  text-decoration: none;
+}
